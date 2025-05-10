@@ -2,6 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
+# The data in 'Epi_Hou.xlsx' is getting from the work of Hou et al. 2019:
+# https://www.nature.com/articles/s41563-019-0422-4
+
 data1 = pd.read_excel('Epi_Hou.xlsx')
 
 x1 = np.linspace(1,7, 50)
